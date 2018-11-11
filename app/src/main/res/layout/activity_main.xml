@@ -8,16 +8,15 @@
     tools:openDrawer="start">
 
     <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView2"
+        android:id="@+id/mapView"
         android:layout_width="384dp"
         android:layout_height="567dp"
-        android:visibility="visible"
-        />
+        android:visibility="visible" />
     <fragment
-        android:id="@id/mapView2"
+        android:id="@id/mapView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.google.android.gms.maps.MapFragment"
+        android:name="uk.ac.sussex.horrors.SomeFragment"
         />
 
 </android.support.constraint.ConstraintLayout>
